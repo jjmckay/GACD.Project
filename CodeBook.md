@@ -8,6 +8,8 @@ Human Activity Recognition
 2. **subject** - *factor, numeric labels* - (1:30) - The id number for subject which took part in the experiment.
 3. **activity** - *factor, character labels* - ("walking", "walking.upstairs", "walking.downstairs", "sitting", "standing", "laying") - The activity which subjects performed with the accelerometer.
 4. **Et cetera** - *numeric* - The rest of the variable denoted by columns 4 and up are measurements for signals from the acceleromter. They come in two major types:
+5. 
+
 - Variables beginning with 't' are 3 dimensional signals
 - Variables beginning with 'f' indicate a frequency domain signal
 
