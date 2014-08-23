@@ -13,6 +13,9 @@ In this project we were given a data set from the UC Irvine's Machine Learning R
 6. The lists for both test and train data are complete and converted into data frames. Then we "stack" them onto one another and factor the factorable variables. The variables other than those for mean and std are also dropped. It is named 'har'.
 7. A tidy data set is created by aggregating the mean of the variables by activity and subject. It is then exported to file.
 
-Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Data Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
+
+
+**Source:** http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+**Data Source:** http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 

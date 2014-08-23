@@ -91,7 +91,7 @@ har$activity <- factor(har$activity, levels = activity.levels, labels = activity
 
 ## Create the tidy data set with the aggregate averages by activity and subject
 ## per the instructions of item 5.
-har.tidy <- aggregate(har[-1:-3], by = list(subject = har$data.type, activity = har$activity), FUN = mean, simplify = TRUE)
+har.tidy <- aggregate(har[-1:-3], by = list(activity = har$activity, subject = har$subject), FUN = mean, simplify = TRUE)
 har.tidy <- har.tidy[order(har.tidy$subject, har.tidy$activity), ]
 
 ## Add "ave." to the beginning of the features columns to denote their new
