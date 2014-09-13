@@ -10,8 +10,8 @@ Human Activity Recognition
 4. **Et cetera** - *numeric* - The rest of the variable denoted by columns 4 and up are measurements for signals from the acceleromter. They come in two major types:
 
 
-- Variables beginning with 't' are 3 dimensional signals
-- Variables beginning with 'f' indicate a frequency domain signal
+ - Variables beginning with 't' are 3 dimensional signals
+ - Variables beginning with 'f' indicate a frequency domain signal
 
 
 **Source:** http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
